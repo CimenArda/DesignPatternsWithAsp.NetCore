@@ -1,0 +1,28 @@
+﻿@model RepositoryDesignPattern.EntityLayer.Concrete.Product
+
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+<form method="post" asp-action="UpdateProduct" class="form-group">
+
+    <input type="hidden" asp-for="ProductID" />
+
+
+    <label>Ürün Adı</label>
+    <input type="text" class="form-control" asp-for="ProductName" />
+    <br />
+    <label>Ürün Stoğu</label>
+    <input type="text" class="form-control" asp-for="ProductStock" />
+    <br />
+    <label>Ürün Fiyatı</label>
+    <input type="text" class="form-control" asp-for="ProductPrice" />
+    <br />
+    <label>Ürün Kategorisi</label>
+    <input type="text" class="form-control" asp-for="CategoryID" />
+    <br />
+    <button class="btn btn-success">Kaydet</button>
+</form>

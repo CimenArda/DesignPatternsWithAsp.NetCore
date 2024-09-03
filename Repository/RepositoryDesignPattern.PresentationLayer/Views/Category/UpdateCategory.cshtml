@@ -1,0 +1,17 @@
+﻿@model RepositoryDesignPattern.EntityLayer.Concrete.Category
+
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+<form method="post" asp-action="UpdateCategory" class="form-group">
+
+    <input type="hidden" asp-for="CategoryID" />
+    <label>Kategori Adı</label>
+    <input type="text" class="form-control" asp-for="CategoryName" />
+
+    <button class="btn btn-success">Değişikleri Kaydet</button>
+</form>
