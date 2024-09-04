@@ -1,0 +1,30 @@
+﻿@using DesignPattern.UnitOfWork.ViewModel
+@model CustomerViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+<form method="post" class="form-group">
+
+    <label>Gonderici ID</label>
+
+    <input type="text" class="form-control" asp-for="SenderID" />
+
+    <br />
+    <label>Alıcı ID</label>
+
+    <input type="text" class="form-control" asp-for="ReceiverID" />
+
+    <br />
+    <label>Miktar</label>
+
+    <input type="text" class="form-control" asp-for="SenderID" />
+
+    <br />
+    <button class="btn btn-success">GÖnder</button>
+</form>
+
+
