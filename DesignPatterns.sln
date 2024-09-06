@@ -31,17 +31,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryDesignPattern.Pre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitOfWork", "UnitOfWork", "{1892B936-A0CF-471E-93FF-3A57CC162A25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.UnitOfWork", "UnitOfWork\DesignPattern.UnitOfWork\DesignPattern.UnitOfWork.csproj", "{DED5542F-3800-4CAE-915F-BA8393E0D247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.UnitOfWork", "UnitOfWork\DesignPattern.UnitOfWork\DesignPattern.UnitOfWork.csproj", "{DED5542F-3800-4CAE-915F-BA8393E0D247}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternUnitOfWork.EntityLayer", "UnitOfWork\DesignPatternUnitOfWork.EntityLayer\DesignPatternUnitOfWork.EntityLayer.csproj", "{DCF262C5-5D14-4686-BC61-61AD073CB950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternUnitOfWork.EntityLayer", "UnitOfWork\DesignPatternUnitOfWork.EntityLayer\DesignPatternUnitOfWork.EntityLayer.csproj", "{DCF262C5-5D14-4686-BC61-61AD073CB950}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternUnitOfWork.DataAccessLayer", "UnitOfWork\DesignPatternUnitOfWork.DataAccessLayer\DesignPatternUnitOfWork.DataAccessLayer.csproj", "{BABDA754-0B5E-4A59-8B9D-991E6B979568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternUnitOfWork.DataAccessLayer", "UnitOfWork\DesignPatternUnitOfWork.DataAccessLayer\DesignPatternUnitOfWork.DataAccessLayer.csproj", "{BABDA754-0B5E-4A59-8B9D-991E6B979568}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternUnitOfWork.BusinessLayer", "UnitOfWork\DesignPatternUnitOfWork.BusinessLayer\DesignPatternUnitOfWork.BusinessLayer.csproj", "{AC710183-39FE-4C98-9993-FE5873E36983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternUnitOfWork.BusinessLayer", "UnitOfWork\DesignPatternUnitOfWork.BusinessLayer\DesignPatternUnitOfWork.BusinessLayer.csproj", "{AC710183-39FE-4C98-9993-FE5873E36983}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{89AE63AD-F1FA-4C2D-A7A7-B3820E5ACBBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Composite", "Composite\DesignPattern.Composite\DesignPattern.Composite.csproj", "{72CA26A2-6EB1-4644-ADB4-EEC419ACD39A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Composite", "Composite\DesignPattern.Composite\DesignPattern.Composite.csproj", "{72CA26A2-6EB1-4644-ADB4-EEC419ACD39A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{BE3981EE-CDDC-4182-84EF-4CE156EEF4DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Mediator", "Mediator\DesignPattern.Mediator\DesignPattern.Mediator.csproj", "{4162A702-379B-4856-9DF3-A9C0EE89FE4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +105,10 @@ Global
 		{72CA26A2-6EB1-4644-ADB4-EEC419ACD39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72CA26A2-6EB1-4644-ADB4-EEC419ACD39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72CA26A2-6EB1-4644-ADB4-EEC419ACD39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4162A702-379B-4856-9DF3-A9C0EE89FE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4162A702-379B-4856-9DF3-A9C0EE89FE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4162A702-379B-4856-9DF3-A9C0EE89FE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4162A702-379B-4856-9DF3-A9C0EE89FE4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +127,7 @@ Global
 		{BABDA754-0B5E-4A59-8B9D-991E6B979568} = {1892B936-A0CF-471E-93FF-3A57CC162A25}
 		{AC710183-39FE-4C98-9993-FE5873E36983} = {1892B936-A0CF-471E-93FF-3A57CC162A25}
 		{72CA26A2-6EB1-4644-ADB4-EEC419ACD39A} = {89AE63AD-F1FA-4C2D-A7A7-B3820E5ACBBC}
+		{4162A702-379B-4856-9DF3-A9C0EE89FE4D} = {BE3981EE-CDDC-4182-84EF-4CE156EEF4DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E80C4B1A-C16B-4C41-83FD-B663D3A1976A}
