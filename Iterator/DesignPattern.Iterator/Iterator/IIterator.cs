@@ -6,15 +6,5 @@
 
         bool NextLocation();  //Başka Öge var Mı?
 
-
-
-
-
-     
-
-
-
-
-
     }
 }
